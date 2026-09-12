@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    font-family: Arial;
+}
+
+header{
+    background-color: yellow;
+}
+
+h1{
+    color: green;
+}
+
+nav{
+    background-color: lightblue;
+}
+
+section{
+    background-color: lightgray;
+    margin: 5px;
+}
+
+article{
+    background-color: white;
+}
+
+img{
+    margin: 3px;
+}
+
+button{
+    background-color: rgb(7, 235, 7);
+    color: black;
+}
+
+table{
+    background-color: white;
+}
+
+th{
+    background-color: orange;
+}
+
+footer{
+    background-color: pink;
+}
