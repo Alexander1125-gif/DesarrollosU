@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Registrar reciclaje - ECOCANJE</title>
+</head>
+<body>
+
+<header class="header-principal">
+    <div class="logo-container"><img src="../ASSETS/IMG/Logo EcoCanje.png" alt="Logo ECOCANJE" class="logo"></div>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="reciclaje.html">Registrar reciclaje</a></li>
+            <li><a href="perfil.html">Mi perfil</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="premios.html">Premios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="pagina-pendiente">
+    <section>
+        <h1>Registrar reciclaje</h1>
+        <p>En esta sección se registrarán los materiales reciclables entregados.</p>
+
+        <form>
+            <label for="material">Tipo de material:</label><br>
+            <select id="material" name="material">
+                <option>Plástico</option>
+                <option>Papel y cartón</option>
+                <option>Vidrio</option>
+                <option>Metal</option>
+            </select>
+
+            <br><br>
+
+            <label for="cantidad">Cantidad:</label><br>
+            <input type="number" id="cantidad" name="cantidad">
+
+            <br><br>
+
+            <label for="observacion">Observaciones:</label><br>
+            <textarea id="observacion" name="observacion" rows="4" cols="35"></textarea>
+
+            <br><br>
+
+            <button type="button">Registrar</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer-principal">
+    <img src="../ASSETS/IMG/Logo EcoCanje.png" alt="Logo ECOCANJE">
+    <p>ECOCANJE - Proyecto académico 2026</p>
+</footer>
+
+</body>
+</html>
